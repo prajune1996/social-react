@@ -66,16 +66,18 @@ export default function Login (props) {
             <LoginForm>
             <InputGroup>
             <Inputhead>Email Address</Inputhead>
-            <Input></Input>
+            <Input placeholder="Enter your email"></Input>
             </InputGroup>
             <InputGroup>
             <Inputhead>Password</Inputhead>
-            <Input></Input>
+            <Input placeholder="******************"></Input>
             </InputGroup>
             <InputGroup>
             <Submit>Login</Submit>
             </InputGroup>
             <Route href="/register">or create an account today?</Route>
+            <br />
+            <Route href="/home">or check feeds as guest</Route>
             </LoginForm>
         </Wrapper>
     )
