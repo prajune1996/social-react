@@ -1,7 +1,7 @@
   
 class HttpService
  {
-    url = "http://localhost:8000/api";
+    url = "https://api.rizontech.in/api";
     
     
     postData = async(item ,added_url,tokenId="") =>{
@@ -53,12 +53,7 @@ class HttpService
 
         return requestOptions;
     }
-    
-    
-
-
-
-    }
+}
     
     
     export default HttpService;

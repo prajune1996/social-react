@@ -9,7 +9,7 @@ const PostReducer = (state=initState, action)=>
           case 'LOADING':      
                 return {
                     ...state,
-                    userPosts:'loading...'
+                    userPosts:'loading'
                 }
           case 'POST_LOADING_SUCCESS':
               return {

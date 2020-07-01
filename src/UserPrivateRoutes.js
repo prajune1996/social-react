@@ -1,15 +1,15 @@
 import React from 'react'
 import {Switch,Route,Redirect} from 'react-router-dom';
-import Header from './layout/Header'
+import Navbar from './views/Navbar'
 import Profileview from './views/Profileview'
 export default function UserPrivateRoutes(props) {
     return (
         <div>
-            <Header props={props} />
+            <Navbar props={props} />
             <Switch>
-                <Route exact path={`${props.match.path}/view-profile`} component={Profileview} />
+                <Route exact path={`${props.match.path}`} component={Profileview} />
                 <Route path={props.match.path} render={props=>(
-                    <Redirect to={{pathname : `${props.match.path}/view-profile`}} />
+                    <Redirect to={{pathname : `${props.match.path}`}} />
                 )} />
             </Switch>
         </div>

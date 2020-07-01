@@ -1,0 +1,72 @@
+.wrapper{
+    margin-top:5em;
+}
+
+.authheader{
+    font-family: CircularBook;
+    font-size:30px;
+    font-weight:100;
+    margin-bottom:0px;
+}
+
+.below{
+    font-family: CircularBook;
+    font-size:18px;
+    font-weight:100;
+    margin-top: 10px;
+}
+
+.loginform{
+    margin-top:3em;
+}
+
+.inputgroup{
+    width: 20em;
+    margin:auto;
+}
+
+.inputhead{
+    font-family: CircularBook;
+    text-align:left;
+    margin-left:0.5em;
+    margin-bottom:10px;
+}
+
+.input{
+    width:300px;
+    height:30px;
+    border-radius:6px;
+    outline:none;
+    border:1px solid #bcbcbc;
+    padding:5px 5px;
+    font-size:20px;
+}
+
+.submit{
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background:#1fae49;
+    color:#fff;
+    font-family: CircularBook;
+    width:100px;
+    border-radius:6px;
+    height:40px;
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+.route{
+    font-family: CircularBook;
+    cursor:pointer;
+    text-decoration:none;
+    color:#1fae49;
+}
+
+.routeblack{
+    font-family: CircularBook;
+    cursor:pointer;
+    text-decoration:none;
+    color:#673AB7;
+}
