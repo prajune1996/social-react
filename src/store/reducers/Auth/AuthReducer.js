@@ -1,3 +1,5 @@
+import React from 'react';
+
 const initState = {
     userAuthResponse:""
 }
@@ -14,7 +16,8 @@ const UserAuthReducer = (state=initState, action) =>
         case 'LOADING':      
             return {
                 ...state,
-                userAuthResponse:'loading'
+                userAuthResponse:
+                <div dangerouslySetInnerHTML={{__html:'<div class="alert alert-primary add-padding">'+'Loading'+'</div>'}}></div>
             }
         case 'SIGNUP_SUCCESS':
           return {
@@ -29,7 +32,8 @@ const UserAuthReducer = (state=initState, action) =>
         case 'LOGIN_SUCCESS':
                 return {
                     ...state,
-                    userAuthResponse:'LoggedIn'
+                    userAuthResponse:
+                    <div dangerouslySetInnerHTML={{__html:'<div class="alert alert-success add-padding">'+'Redirecting'+'</div>'}}></div>
                 }
         case 'LOGIN_ERROR':
                   return {

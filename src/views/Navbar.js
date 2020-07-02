@@ -14,7 +14,6 @@ export default function App() {
     useEffect(()=>{
         dispatch(loadUserProfileActions());
     }, [])
-    const authResponse = useSelector(state=>state.userAuth.userAuthResponse);
     return (
         <Navbar>
         <NavLink href="/home" icon={ <HomeIcon /> }  />

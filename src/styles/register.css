@@ -51,12 +51,27 @@
     font-family: CircularBook;
     width:100px;
     border-radius:6px;
-    height:40px;
+    /* height:40px; */
     font-size:18px;
     margin-top:15px;
     margin-bottom:10px;
 }
 
+.imagebtn{
+    cursor:pointer;
+    border:none;
+    outline:none;
+    background:linear-gradient(to right, #ad5389, #3c1053);
+    color:#fff;
+    margin-right:5px;
+    font-family: CircularBook;
+    width:100px;
+    border-radius:6px;
+    /* height:40px; */
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
 .route{
     font-family: CircularBook;
     cursor:pointer;

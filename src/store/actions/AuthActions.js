@@ -42,7 +42,6 @@ export const UserLoginAction = (credentials,props) =>
         {
             localStorage.setItem('user-token',res.token)
             dispatch({type:'LOGIN_SUCCESS'});
-
             setTimeout(() => {
                 props.history.push('/home');
             }, 1000);

@@ -96,6 +96,7 @@
 .inputpost {
     width: 100%;
     margin: auto;
+    display: flex;
 }
 
 .buttongroup{

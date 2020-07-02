@@ -43,7 +43,8 @@ export default function Login (props) {
 
     useEffect(() => {
         dispatch(clearAuthState());
-}, [])
+        
+}, )
 
     return (
         <div className="wrapper">

@@ -9,13 +9,13 @@ export const loadUserProfileActions = () =>
         LoadProfile().then((res)=>
         {
             
-            if(res.hasOwnProperty('success') && res.success==true)
+            if(res.hasOwnProperty('success') && res.success===true)
             {
                 setTimeout(() => {
                     dispatch({type:'LOAD_PROFILE_SUCCESS',res})
                 }, 1000);
             }
-            else if(res.hasOwnProperty('success') && res.success==false)
+            else if(res.hasOwnProperty('success') && res.success===false)
             {
                 dispatch({type:'LOAD_PROFILE_ERROR',res})
             }
